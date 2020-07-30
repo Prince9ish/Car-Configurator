@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A328017B1DBE03AE004CB572 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A328017A1DBE03AE004CB572 /* main.cpp */; };
+		A337C6841DBE3FF700AD8154 /* libopencv_core.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A337C6811DBE3FF700AD8154 /* libopencv_core.3.1.0.dylib */; };
+		A337C6851DBE3FF700AD8154 /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A337C6821DBE3FF700AD8154 /* libopencv_highgui.3.1.0.dylib */; };
+		A337C6861DBE3FF700AD8154 /* libopencv_imgproc.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A337C6831DBE3FF700AD8154 /* libopencv_imgproc.3.1.0.dylib */; };
+		A36639471DC2360C009A74D9 /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A36639461DC2360C009A74D9 /* libopencv_imgcodecs.3.1.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A32801751DBE03AE004CB572 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A32801771DBE03AE004CB572 /* Car Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Car Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A328017A1DBE03AE004CB572 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A337C6811DBE3FF700AD8154 /* libopencv_core.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.3.1.0.dylib; sourceTree = "<group>"; };
+		A337C6821DBE3FF700AD8154 /* libopencv_highgui.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.3.1.0.dylib; sourceTree = "<group>"; };
+		A337C6831DBE3FF700AD8154 /* libopencv_imgproc.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.3.1.0.dylib; sourceTree = "<group>"; };
+		A36639461DC2360C009A74D9 /* libopencv_imgcodecs.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgcodecs.3.1.0.dylib; sourceTree = "<group>"; };
+		A3E56E761DDC2AF700BBD274 /* Back.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Back.jpeg; sourceTree = "<group>"; };
+		A3E56E771DDC2AF700BBD274 /* Front.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Front.jpeg; sourceTree = "<group>"; };
+		A3E56E791DDC2AF700BBD274 /* Body - Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body - Back.png"; sourceTree = "<group>"; };
+		A3E56E7A1DDC2AF700BBD274 /* Body - Front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Body - Front.png"; sourceTree = "<group>"; };
+		A3E56E7D1DDC2AF700BBD274 /* Back - Wheel - 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back - Wheel - 1.png"; sourceTree = "<group>"; };
+		A3E56E7E1DDC2AF700BBD274 /* Back - Wheel - 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back - Wheel - 2.png"; sourceTree = "<group>"; };
+		A3E56E7F1DDC2AF700BBD274 /* Back - Wheel - 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back - Wheel - 3.png"; sourceTree = "<group>"; };
+		A3E56E801DDC2AF700BBD274 /* Back - Wheel - 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back - Wheel - 4.png"; sourceTree = "<group>"; };
+		A3E56E821DDC2AF700BBD274 /* Wheels - 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheels - 1.png"; sourceTree = "<group>"; };
+		A3E56E831DDC2AF700BBD274 /* Wheels - 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheels - 2.png"; sourceTree = "<group>"; };
+		A3E56E841DDC2AF700BBD274 /* Wheels - 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheels - 3.png"; sourceTree = "<group>"; };
+		A3E56E851DDC2AF700BBD274 /* Wheels - 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheels - 4.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32801741DBE03AE004CB572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A337C6841DBE3FF700AD8154 /* libopencv_core.3.1.0.dylib in Frameworks */,
+				A337C6851DBE3FF700AD8154 /* libopencv_highgui.3.1.0.dylib in Frameworks */,
+				A36639471DC2360C009A74D9 /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */,
+				A337C6861DBE3FF700AD8154 /* libopencv_imgproc.3.1.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A328016E1DBE03AD004CB572 = {
+			isa = PBXGroup;
+			children = (
+				A3E56E741DDC2AF700BBD274 /* Asset */,
+				A337C6811DBE3FF700AD8154 /* libopencv_core.3.1.0.dylib */,
+				A337C6821DBE3FF700AD8154 /* libopencv_highgui.3.1.0.dylib */,
+				A36639461DC2360C009A74D9 /* libopencv_imgcodecs.3.1.0.dylib */,
+				A337C6831DBE3FF700AD8154 /* libopencv_imgproc.3.1.0.dylib */,
+				A32801791DBE03AE004CB572 /* Car Project */,
+				A32801781DBE03AE004CB572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32801781DBE03AE004CB572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32801771DBE03AE004CB572 /* Car Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32801791DBE03AE004CB572 /* Car Project */ = {
+			isa = PBXGroup;
+			children = (
+				A328017A1DBE03AE004CB572 /* main.cpp */,
+			);
+			path = "Car Project";
+			sourceTree = "<group>";
+		};
+		A3E56E741DDC2AF700BBD274 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E751DDC2AF700BBD274 /* Base */,
+				A3E56E781DDC2AF700BBD274 /* Body */,
+				A3E56E7B1DDC2AF700BBD274 /* Wheels */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		A3E56E751DDC2AF700BBD274 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E761DDC2AF700BBD274 /* Back.jpeg */,
+				A3E56E771DDC2AF700BBD274 /* Front.jpeg */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A3E56E781DDC2AF700BBD274 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E791DDC2AF700BBD274 /* Body - Back.png */,
+				A3E56E7A1DDC2AF700BBD274 /* Body - Front.png */,
+			);
+			path = Body;
+			sourceTree = "<group>";
+		};
+		A3E56E7B1DDC2AF700BBD274 /* Wheels */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E7C1DDC2AF700BBD274 /* Back */,
+				A3E56E811DDC2AF700BBD274 /* Front */,
+			);
+			path = Wheels;
+			sourceTree = "<group>";
+		};
+		A3E56E7C1DDC2AF700BBD274 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E7D1DDC2AF700BBD274 /* Back - Wheel - 1.png */,
+				A3E56E7E1DDC2AF700BBD274 /* Back - Wheel - 2.png */,
+				A3E56E7F1DDC2AF700BBD274 /* Back - Wheel - 3.png */,
+				A3E56E801DDC2AF700BBD274 /* Back - Wheel - 4.png */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		A3E56E811DDC2AF700BBD274 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				A3E56E821DDC2AF700BBD274 /* Wheels - 1.png */,
+				A3E56E831DDC2AF700BBD274 /* Wheels - 2.png */,
+				A3E56E841DDC2AF700BBD274 /* Wheels - 3.png */,
+				A3E56E851DDC2AF700BBD274 /* Wheels - 4.png */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32801761DBE03AE004CB572 /* Car Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A328017E1DBE03AE004CB572 /* Build configuration list for PBXNativeTarget "Car Project" */;
+			buildPhases = (
+				A32801731DBE03AE004CB572 /* Sources */,
+				A32801741DBE03AE004CB572 /* Frameworks */,
+				A32801751DBE03AE004CB572 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Project";
+			productName = "Car Project";
+			productReference = A32801771DBE03AE004CB572 /* Car Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A328016F1DBE03AD004CB572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Prince Pattanayanon";
+				TargetAttributes = {
+					A32801761DBE03AE004CB572 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A32801721DBE03AD004CB572 /* Build configuration list for PBXProject "Car Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A328016E1DBE03AD004CB572;
+			productRefGroup = A32801781DBE03AE004CB572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32801761DBE03AE004CB572 /* Car Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32801731DBE03AE004CB572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A328017B1DBE03AE004CB572 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A328017C1DBE03AE004CB572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A328017D1DBE03AE004CB572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A328017F1DBE03AE004CB572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		A32801801DBE03AE004CB572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32801721DBE03AD004CB572 /* Build configuration list for PBXProject "Car Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A328017C1DBE03AE004CB572 /* Debug */,
+				A328017D1DBE03AE004CB572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A328017E1DBE03AE004CB572 /* Build configuration list for PBXNativeTarget "Car Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A328017F1DBE03AE004CB572 /* Debug */,
+				A32801801DBE03AE004CB572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A328016F1DBE03AD004CB572 /* Project object */;
+}
